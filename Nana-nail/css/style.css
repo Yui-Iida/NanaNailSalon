@@ -1,0 +1,284 @@
+/* //////////////////////////////// */
+/* color: #9775fa #b197fc #d0bfff #e5dbff #f3f0ff  */
+/* color: #D3BAAD #D4AEB4 #E2D2CA #B68D77 */
+/* color: #DABAB3 #EDDDD9 #F7F0EF*/
+/* color: #B1D1E4 #F4D3E9 #DD2D67 */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  font-size: 0.9rem;
+  overflow-x: hidden;
+  /* background-color: #fbf7f7; */
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+  transition: 2s;
+  max-width: 120rem;
+}
+
+header {
+  background-color: #f5aadc;
+}
+
+.main-nav-list {
+  font-size: 1.5rem;
+  display: flex;
+  /* flex-wrap: wrap; */
+  padding: 1rem;
+  justify-content: flex-end;
+  gap: 2rem;
+  list-style: none;
+}
+
+.main-nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.top {
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  font-family: 'Parisienne', cursive;
+  font-size: 5em;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  color: #777;
+  z-index: 1;
+}
+
+.sub-name {
+  position: absolute;
+  /* font-family: 'Parisienne', cursive; */
+  font-size: 2.5em;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #fff;
+}
+
+.top-green {
+  width: 100vw;
+  opacity: 70%;
+}
+
+h2 {
+  font-size: 4rem;
+  font-family: 'Parisienne', cursive;
+  padding-bottom: 3rem;
+}
+
+.section-container {
+  margin: 5rem 8rem;
+  padding-bottom: 8rem;
+}
+
+.info-text {
+  line-height: 3rem;
+  font-size: 1.2rem;
+}
+
+.cat {
+  height: 12rem;
+  /* transform: scale(-1, 1); */
+  position: relative;
+  top: -2rem;
+  left: 50rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+/* ////Pricing table//////////////////// */
+
+.pricecards {
+  list-style: none;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+
+.pricecard {
+  flex: 0 0 25%;
+  text-align: center;
+  border: 1px solid #eee;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-sizing: border-box;
+  margin: 0 auto 3em;
+  font-size: 1.2rem;
+  /* height: 30rem; */
+}
+
+.pricecard h3 {
+  background: #f5aadc;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+.pricecard.recommend {
+  border: 3px solid rgb(183, 245, 170);
+  padding-bottom: 3rem;
+}
+
+.pricecard.recommend h3 {
+  background: rgb(183, 245, 170);
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+.pricecard h4 {
+  font-size: 300%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  letter-spacing: -10px;
+}
+
+.pricecard.premium h4 {
+  padding: 20px;
+}
+
+.pricecard p {
+  margin: 0;
+  padding: 1rem;
+}
+
+.pricecard div {
+  padding-top: 1rem;
+}
+
+/* .pricecard a {
+  padding: 10px 40px;
+  background: #fb5859;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  display: inline-block;
+} */
+
+@media screen and (max-width: 600px) {
+  .profile_card,
+  .pricecards,
+  .profile_cards {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+  }
+
+  .pricecard,
+  .card_photo {
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+  }
+
+  .pricecard.premium {
+    order: 1;
+    -webkit-order: 1;
+  }
+}
+
+/* //////////////////////// */
+
+.price-detail li {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.important {
+  padding: 5rem 0;
+  text-align: center;
+  background-color: rgb(183, 245, 170);
+  border-radius: 30px;
+  margin-bottom: 15rem;
+}
+
+h5 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  text-decoration: underline double #ff838b;
+}
+
+.important-text {
+  font-size: 1.3rem;
+  line-height: 4rem;
+}
+
+footer {
+  background-color: #f5aadc;
+  /* height: 20rem; */
+  /* display: flex; */
+  width: 100%;
+  padding: 15rem 0.5rem;
+}
+
+.contact {
+  font-size: 2rem;
+  /* font-size 効かないなんで？？？？ */
+  text-align: center;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 2rem;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.social-icon {
+  color: #fff;
+  height: 5rem;
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.copyright {
+  color: #777;
+  display: flex;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  justify-content: center;
+}

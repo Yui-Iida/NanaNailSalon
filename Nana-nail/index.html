@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta name="description" container="" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <!-- レスポンシブにするとき -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+      rel="stylesheet"
+    />
+
+    <code
+      ><script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script
+    ></code>
+
+    <script defer src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>日本人向けネイルサロン in ミュンヘン - Nana's Nail Salon</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="main-nav">
+          <ul class="main-nav-list mobile-menu">
+            <li>
+              <a class="main-nav-link mobile-menu-item" href="#info"
+                >Information</a
+              >
+            </li>
+            <li>
+              <a class="main-nav-link mobile-menu-item" href="#price">Price</a>
+            </li>
+            <li>
+              <a class="main-nav-link mobile-menu-item" href="#gallery"
+                >Photo</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="top">
+      <h1>Nana's Nail Salon</h1>
+      <p class="sub-name">in München</p>
+      <img src="img/green.jpg" alt="green plant" class="top-green" />
+    </div>
+
+    <section class="section-container" id="info">
+      <h2>Information</h2>
+      <p class="info-text">
+        初めまして！お目に留めていただきありがとうございます。ミュンヘン在住の菜奈と申します。<br />
+        この度、自宅にてネイルの施術ができるようになりました。<br />
+        日本にいた時みたくネイルがしたいけどドイツでサロンに行くのはちょっと勇気がないな…って方や、日本語でデザイン決め等をしたい方。<br />
+        日時もなるべく臨機応変に対応したいと思っておりますので、少しでも興味がありましたらお気軽にご相談ください。<br />
+        <!-- 昔からネイルが好きでセルフネイルをしていました。何となく資格を取ってみようと思い、取得はしたものの友人にのみネイルをしていたのでネイルサロンでプロとして働いたことはありません。<br /> -->
+        ネイリスト検定３級とジェルネイル検定中級を所有しております。<br />
+        よろしくお願い致します♡<br />
+        <!-- ミュンヘンに来てから、日本人がやっているネイルサロンを探しましたが残念ながら見つからず…（以前はあったみたいです）<br />
+        なので、道具を揃えてセルフネイルを復活させました。<br /> -->
+        <!-- とりあえず、ゆる〜く簡易ではありますが自宅サロンを始めます。<br /> -->
+        <!-- 興味がある方々はお気軽にお問い合わせください。未熟者ではありますが、よろしくお願いいたします♡<br /> -->
+
+        <img src="./img/cat.png" alt="cat picture" class="cat" />
+      </p>
+    </section>
+
+    <section class="section-container" id="price">
+      <h2>Price</h2>
+      <ul class="pricecards">
+        <li class="pricecard free">
+          <h3>ワンカラー</h3>
+          <div>初回</div>
+          <h4>€２０</h4>
+          <div>２回目以降€２５</div>
+          <p>ラメ、ホロ、スタッズ５個まで無料</p>
+        </li>
+        <li class="pricecard free recommend">
+          <h3>２色使用ワンカラー</h3>
+          <div>初回</div>
+          <h4>€２５</h4>
+          <div>２回目以降€３０</div>
+          <p>ラメ、ホロ、スタッズ５個まで無料</p>
+        </li>
+        <li class="pricecard free">
+          <h3>シンプルデザインコース</h3>
+          <div>初回</div>
+          <h4>€３５</h4>
+          <div>２回目以降€４０</div>
+          <p>ラメ、ホロ、スタッズ５個まで無料</p>
+        </li>
+        <li class="pricecard free">
+          <h3>スペシャルコース</h3>
+          <div>初回</div>
+          <h4>€４０</h4>
+          <div>２回目以降€５０</div>
+          <p>ラメ、ホロ、スタッズ、シール、石、シェル２０個まで無料</p>
+        </li>
+      </ul>
+      <ul class="price-detail">
+        <li>ネイルパーツは€２〜ご用意しております。</li>
+        <li>オフ（当店ジェル付け替え or 他店ソフトジェル付け替え）€５</li>
+        <li>オフのみ（ソフトジェル€１０、ハードジェル€１５）</li>
+        <li>
+          ご予約時に爪のお写真を送って頂いております。その際、爪の状態を見て施術をお断りさせて頂く場合がございます。あらかじめご了承ください。
+        </li>
+        <li>その他何でもお気軽にご相談ください。</li>
+      </ul>
+    </section>
+
+    <section class="section-container" id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery grid-container">
+        <figure class="gallery-item">
+          <img src="./img/nail-1.jpeg" alt="nail photo" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="./img/nail-2.jpeg" alt="nail photo" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="./img/nail-3.jpeg" alt="nail photo" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="./img/nail-4.jpeg" alt="nail photo" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="./img/nail-5.jpeg" alt="nail photo" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="./img/nail-6.jpeg" alt="nail photo" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="./img/nail-7.jpeg" alt="nail photo" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="./img/nail-8.jpeg" alt="nail photo" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="./img/nail-9.jpeg" alt="nail photo" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="./img/nail-10.jpeg" alt="nail photo" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="./img/nail-11.jpeg" alt="nail photo" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="./img/nail-12.jpeg" alt="nail photo" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="./img/nail-13.jpeg" alt="nail photo" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="./img/nail-14.jpeg" alt="nail photo" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="./img/nail-15.jpeg" alt="nail photo" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="./img/nail-16.jpeg" alt="nail photo" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="./img/nail-17.jpg" alt="nail photo" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="./img/nail-18.jpeg" alt="nail photo" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="./img/nail-19.jpeg" alt="nail photo" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="./img/nail-20.jpg" alt="nail photo" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="./img/nail-21.jpeg" alt="nail photo" />
+        </figure>
+      </div>
+    </section>
+
+    <section class="section-container important">
+      <h2>⚠️Important⚠️</h2>
+      <h5>お問い合わせの前にご一読ください。</h5>
+
+      <p class="important-text">
+        ※ コロナワクチンを３回接種済みの方のみ施術させて頂きます。<br />
+        ※ 猫が２匹います。自宅での施術のみとなりますので予めご了承ください。<br />
+        ※
+        友人にのみネイルをしていたのでネイルサロンでプロとして働いた経験はありません。<br />
+        ※ 長さ出しは基本的に行っておりませんので予めご了承ください。
+      </p>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p class="contact">お気軽にお問い合わせください。</p>
+
+        <ul class="social-links">
+          <li>
+            <a
+              class="footer-link"
+              href="https://www.instagram.com/munich_nail_japan"
+              target="_blank"
+            >
+              <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a
+              class="footer-link"
+              href="mailto:nana.24.say.what&#64;gmail.com"
+              target="_blank"
+            >
+              <ion-icon class="social-icon" name="mail-outline"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+        <p class="copyright">
+          Copyright &copy; <span class="year">2022 </span> by Yui Iida. All
+          rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
